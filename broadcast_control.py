@@ -11,7 +11,7 @@ class BroadcastControl(object):
     def _handle_PacketIn(self, event):
         packet = event.parsed
 
-        # 🔥 1. Allow ARP packets (VERY IMPORTANT)
+        #  1. Allow ARP packets (VERY IMPORTANT)
         if packet.type == 0x0806:
             msg = of.ofp_packet_out()
             msg.data = event.ofp
@@ -19,12 +19,12 @@ class BroadcastControl(object):
             self.connection.send(msg)
             return
 
-        # 🔥 2. Block other broadcast/multicast packets
+        #  2. Block other broadcast/multicast packets
         if packet.dst.is_multicast:
             log.info("Blocking broadcast packet")
             return
 
-        # 🔥 3. Allow normal unicast traffic
+        # 3. Allow normal unicast traffic
         msg = of.ofp_packet_out()
         msg.data = event.ofp
         msg.actions.append(of.ofp_action_output(port=of.OFPP_FLOOD))
