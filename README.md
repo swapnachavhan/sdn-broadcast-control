@@ -1,6 +1,6 @@
 # 📡 SDN Broadcast Traffic Control
 
-## 👨‍💻 Student Details
+## Student Details
 
 * Name: Swapna Chavhan
 * USN: (Add your USN here)
@@ -8,13 +8,13 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Control excessive broadcast traffic in the network using Software Defined Networking (SDN).
 
 ---
 
-## 🎯 Objective
+## Objective
 
 * Detect broadcast packets in the network
 * Limit unnecessary flooding
@@ -23,7 +23,7 @@ Control excessive broadcast traffic in the network using Software Defined Networ
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * Mininet
 * POX Controller
@@ -32,14 +32,14 @@ Control excessive broadcast traffic in the network using Software Defined Networ
 
 ---
 
-## 🧠 Description
+## Description
 
 In traditional networks, broadcast packets are sent to all devices which causes flooding and network congestion.
 In this project, an SDN controller (POX) is used to detect broadcast packets and block them, reducing unnecessary traffic.
 
 ---
 
-## ⚙️ Steps to Run
+##  Steps to Run
 
 ### 1. Start POX Controller
 
@@ -57,7 +57,7 @@ pingall
 
 ---
 
-## 📊 Output
+## Output
 
 * All hosts are connected successfully
 * Result shows 0% packet loss
@@ -65,9 +65,10 @@ pingall
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
-(Add screenshots of Mininet output and POX output here)
+<img width="1052" height="627" alt="image" src="https://github.com/user-attachments/assets/ba4f9a1a-e33d-4d82-aa96-4374484eaa84" />
+
 
 ---
 
