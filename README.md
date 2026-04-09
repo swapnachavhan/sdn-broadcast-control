@@ -2,9 +2,9 @@
 
 ## Student Details
 
-* Name: Swapna Chavhan
-* USN: (Add your USN here)
-* Course: Computer Networks Lab
+* Name: Swapna
+* USN: PES2UG24CS662
+* Course: Computer Network Lab
 
 ---
 
